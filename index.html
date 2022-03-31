@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./mediaquerymobile.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="./clock_logo.png">
+</head>
+<body>
+
+<div id="maindiv">
+    <p id="clocklogo"><img src="./clock_logo.png" alt="clock"></p>
+
+    <div id="seconddiv">
+        <div class="div2-1-1">TIME</div>
+        <div  class="time"><span id="hours" >00 </span>hours</div>
+        <div class="div2-1-3">:</div>
+        <div  class="time"><span id="mins">00 </span> mins</div>
+        <div class="div2-1-3">:</div>
+        <div  class="time"><span id="secs">00 </span> <br> secs</div>
+        <div class="div2-1-4"><span id="ampm" >AM</span></div>
+    </div>
+    <div id="shadow1"></div>
+    <div id="shadow2"></div>
+
+    <div id="thirddiv">
+    
+        <div class="div1-2-1">
+         <span class="material-icons" style="margin-right: 15px;"> light_mode</span>
+         <font>Set wake up time</font>
+         <select name="wakeuptime" id="wakeuptime" >
+             
+                <option value="0">6 AM - 7 AM    </option>
+                <option value="1">7 AM - 8 AM    </option>
+                <option value="2">8 AM - 9 AM    </option>
+                <option value="3">9 AM - 10 AM  </option>
+                <option value="4">10 AM - 11 AM</option>
+                <option value="5">11 AM - 12 PM</option>
+                <option value="6">12 PM - 1 PM</option>
+               
+         </select>
+        </div>
+         
+          <div class="div1-2-2" style="border-left: 2px solid grey;height:30px;"></div>
+        
+          <div class="div1-2-1">
+
+             <span class="material-icons" style="margin-right: 15px;" > restaurant</span>
+             <font>Set up lunch time</font>
+             <select name="lunch" id="lunch">
+               
+                 <option value="0">11 AM - 12 PM</option>
+                 <option value="1">12 PM - 1 PM</option>
+                 <option value="2">1 PM - 2 PM    </option>
+             </select>
+
+         </div> 
+       
+         <div class="div1-2-2" style="border-left: 2px solid grey;height:30px;"></div>
+         
+         <div class="div1-2-1">
+             <span class="material-icons" style="margin-right: 15px;">notifications_paused</span>
+             <font>Set up nap time</font>
+             <select name="naptime" id="nptime">
+                 <option value="0">1 PM - 2 PM    </option>
+                <option value="1">2 PM - 3 PM    </option>
+                <option value="2">3 PM - 4 PM   </option>
+                <option value="3">4 PM - 5 PM    </option>
+                <option value="4">5 PM - 6 PM   </option>  
+             </select>
+         </div>
+
+         <div class="div1-2-2" style="border-left: 2px solid grey;height:30px;"></div>
+
+         <div class="div1-2-1">
+             <span class="material-icons" style="margin-right: 15px;">dark_mode</span>
+             <font>Set up night time </font>
+             <select name="nighttime" id="nighttime">
+                 <option value="0">8 PM - 9 PM   </option>
+                <option value="1">9 PM - 10 PM  </option>
+                <option value="2">10 PM - 11 PM</option>
+                <option value="3">11 PM - 12 AM</option>
+                <option value="4">12 AM - 1 AM </option>
+                <option value="5">1 AM - 2 AM   </option>
+                <option value="6">2 AM - 3 AM   </option>
+                <option value="7">3 AM - 4 AM   </option>
+                <option value="8">4 AM - 5 AM   </option>
+                <option value="9">5 AM - 6 AM    </option>
+
+             </select>
+         </div>
+
+     </div>
+
+  
+     <p id="textcontainer1">GET SOME HEALTHY BREAKFAST !!</p>
+
+     <p id="textcontainer2">GOOD MORNING!! WAKE UP!!</p>
+
+     <p id="imgcontainer"></p>
+
+     <div class="div1-4">
+        <div class="div1-4-1"><button><span>Set Alarm</span></button></div>
+        
+         <p id="smallbox">Wakeup Time 10AM-11Am</p>
+        
+    </div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+</body>
+</html>
